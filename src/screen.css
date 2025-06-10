@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
+
+/*-----------------------------------*\
+  #Media Quires
+\*-----------------------------------*/
+/*-----------------------------------*\
+  #CONTAINER
+\*-----------------------------------*/
+.container {
+    margin: 0 auto;
+    padding-inline: 15px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+           width: 556px;
+           padding: 15px;
+       }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)  {
+       .container {
+           width: 748px;
+           padding: 15px;
+       }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+       .container{
+           width: 972px;
+           padding: 15px;
+       }
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+       .container {
+           width: 1180px;
+           padding: 15px;
+       }
+}
