@@ -18,8 +18,40 @@
     <!-- Local Style -->
     <link rel="stylesheet" href="./src/screen.css">
 </head>
-<body>
+<body class="main-font">
+    <div class="body_container">
+        <video src="./assets/videos/galaxy.mp4" autoplay loop muted plays-inline
+        type="video/mp4" class="bg-video fixed right-0 bottom-0 mix-blend-overlay z-[-1]"></video>
+        <div class="container_fluid relative w-full h-full flex flex-col items-center">
+            <header class=" absolute flex  items-center top-0 right-0 left-0 h-[70px] backdrop-blur-md z-10 px-0 py-[30px]" style="background-color: rgba(255, 255, 255, 0.123); 
+            box-shadow: 0 0 15px #72a1de68;">
+                <div class="container flex justify-between items-center ">
+                    <div class="logo sec-font text-[30px]">
+                        <span class="capitalize font-bold">array</span>
+                    </div>
 
+                    <ul class="flex justify-between w-[30%] px-[20px] py-[10px] rounded-[50px]  backdrop-blur-md" style="background-color: rgba(0, 0, 69, 0.30);
+                    box-shadow: 0 0 10px #727fde65;">
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+
+                    <div class="icons-box flex gap-[40px]">
+                        <a href="#">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
     <script src="./assets/Js/config.js"></script>
 </body>
 </html>
